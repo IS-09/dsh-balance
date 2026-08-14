@@ -1,0 +1,45 @@
+{
+  "name": "dsh-balance",
+  "version": "0.1.0",
+  "description": "Live DeepSeek open-platform balance under the DSH Web composer stats line (green, refreshed every 60s) | DSH Web 底栏实时显示 DeepSeek 开放平台余额（绿色，每 60 秒刷新）",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "balance",
+    "deepseek"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IS-09/dsh-balance.git"
+  }
+}

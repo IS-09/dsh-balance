@@ -1,0 +1,5 @@
+# dsh-balance bundle patch — host 半区入口
+# AUTO-GENERATED style: one insert row naming the host plugin package.
+- insert:
+    - id: dsh-balance
+      name: 'dsh-balance'
