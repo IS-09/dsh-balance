@@ -1,6 +1,6 @@
 {
   "name": "dsh-balance",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Live DeepSeek open-platform balance under the DSH Web composer stats line (green, refreshed every 60s) | DSH Web 底栏实时显示 DeepSeek 开放平台余额（绿色，每 60 秒刷新）",
   "type": "module",
   "main": "lib/index.js",
